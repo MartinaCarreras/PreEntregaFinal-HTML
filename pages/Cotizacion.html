@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../images/Favicon.jpg">
+    <title>Cotización</title>
+</head>
+<body class="font">
+    <header>
+        <nav>
+            <ul class="header">
+                <li><a href="../index.html"><img src="../images/Logo-Peluchitos2.jpg" alt="Logo" class="header__logo"></a></li>
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="./Cotizacion.html">Cotización</a></li>
+                <li><a href="./Blog.html">Blog</a></li>
+                <li><a href="./Contacto.html" class="header__contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class=" main maincot">
+        <h2 class="maincot__h2">Si tienes un patrón que quieras que creemos personalmente, llena este formulario con todos los detalles de tu pedido. <br>Te mandaremos la cotización a tu mail!</h2>
+        <form class="forms-cotizacion">
+            <div class="labels1">
+                <label for="link-patron">Link a tu patrón:</label>
+                <label for="tipo-lana">Lana (tipo):</label>
+                <label for="color">Color:</label>
+            </div>
+            <div class="inputs1">
+                <input id="link-patron" type="text" required>
+                <input id="tipo-lana" type="text" placeholder=" (original)">
+                <input id="color" type="text" placeholder=" (original)">
+            </div>
+            <div class="labels2">
+                <label for="nombre-cotizacion">Nombre completo:</label>
+                <label for="mail">Mail:</label>
+                <label for="numero">Número:</label>
+            </div>
+            <div class="inputs2">
+                <input id="nombre-cotizacion" type="text" required>
+                <input id="mail" type="mail" required>
+                <input id="numero" type="number" required>
+            </div>
+            <div class="labels3">
+                <label for="detalles">Detalles:</label>
+            </div>
+            <div class="textarea1">
+                <textarea name="" id="detalles" cols="30" rows="10" placeholder=" Escribe tus especificaciones."></textarea><br>
+            </div>
+            <div class="submit1">
+                <input type="submit">
+            </div> 
+        </form>
+    </main>
+    <footer>
+        <section class="footer">
+            <h2>Siguenos en nuestras redes sociales!!</h2>
+            <div class="footer__instagram">
+                <img src="../images/icono-instagram.png" alt="instagram" class="footer__instagram--logo">
+                <h3 class="footer__instagram--texto">@tupeluchito.oficial</h3>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
