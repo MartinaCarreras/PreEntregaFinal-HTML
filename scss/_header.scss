@@ -1,0 +1,94 @@
+//Hola//
+header {
+    background-color: $color-header1;
+    height: 160px;
+    border-left: $color-header2 2.37212750185vw solid;
+    border-right: $color-header2 2.37212750185vw solid;
+    border-bottom: $color-header1 1px solid;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    a {
+        color: $color-main1 !important;
+    }
+}
+.header{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 25px !important;
+
+    .header__logo {
+        height: 130px;
+    }
+    .header__contacto {
+        margin-right: 4.67289719626vw;
+    }
+    .header-2 {
+        display: none;
+    }
+}
+@media (max-width: $media2) {
+    .header {
+        align-items: normal;
+        flex-wrap: nowrap;
+        height: 160px;
+    }
+    .header-1 {
+        display: none;
+    }
+    .header-2 {
+        display: block !important;
+        width: 300px !important;
+        margin-top: 40px;
+        margin-left: 17px;
+        ul {
+            padding-left: 0px;
+        }
+        .button-header-2 {
+            background-color: $color-header3;
+            color: $color-main1;
+            border: $color-header2 solid 2px;
+            font-size: calc(0.625rem + 1.27226463104vw);
+        }
+        .accordion-body {
+            background-color: $color-header3;
+            border: $color-header2 solid 2px;
+            font-size: calc(0.625rem + 1.27226463104vw);
+            padding-top: 5px;
+            ul li {
+                display: flex;
+                height: 35px;
+                border-bottom: $color-header2 solid 1px;
+                align-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+@media (max-width: $media5) {
+    .header {
+        height: fit-content;
+        .header__logo {
+            width: 35vw;
+            height: auto;
+        }
+    }
+}
+@media (max-width: $media6) {
+    header {
+        height: 130px;
+        .header__logo {
+            width: 175px !important;
+        }
+    }
+    .header-2 {
+        margin-top: 20px;
+    }
+}

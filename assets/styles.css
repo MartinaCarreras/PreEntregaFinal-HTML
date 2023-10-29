@@ -1,39 +1,39 @@
-* {
+/* * {
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
     list-style: none;
 }
-header {
-    background-color: #65743A;
+/* header { */
+    /* background-color: #65743A;
     height: 160px;
     border-left: #3F4924 2.37212750185vw solid;
     border-right: #3F4924 2.37212750185vw solid;
     border-bottom: #65743A 1px solid;
-}
-a {
+} */
+/* a {
     color: #C6C5B9 !important;
-}
-body {
+} */
+/* body {
     background-color: #C6C5B9;
-}
-footer {
+} */
+/* footer {
     background-color: #442220;
     color: #A9A587;
     border-left: #2E0014 2.37212750185vw solid;
     border-right: #2E0014 2.37212750185vw solid;
-}
-.main {
+} */
+/* .main {
     border-left: #A9A89A 2.37212750185vw solid;
     border-right: #A9A89A 2.37212750185vw solid;
     padding: 0;
     margin: 0;
-}
-.font {
+} */
+/* .font {
     font-family: 'Shantell Sans', cursive;
-}
-.header{
+} */
+/* .header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -41,28 +41,28 @@ footer {
     align-items: center;
     padding: 15px;
     font-size: 25px !important;
-}
-.header__logo {
+} */
+/* .header__logo {
     height: 130px;
-}
-.header__contacto {
+} */
+/* .header__contacto {
     margin-right: 50px;
-}
-.main__banner {
-    display: flex;
+} */
+/* .main__banner { */
+    /* display: flex;
     width: 96%;
     padding: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    flex-wrap: nowrap;
-}
-.main__section {
+    flex-wrap: nowrap; */
+/* } */
+/* .main__section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.main__section article {
+} */
+/* .main__section article {
     margin: 20px 15px 20px 15px;
     padding-bottom: 15px;
     background-color: #A9A89A;
@@ -70,27 +70,27 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-.main__section article h3 {
+} */
+/* .main__section article h3 {
     font-size: 25px;
-}
-.main__section--producto {
+} */
+/* .main__section--producto {
     width: 300px;
     height: 225px;
     margin: 15px;
-}
-.main__h2 {
+} */
+/* .main__h2 {
     margin-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-}
-.maincot__h2 {
+} */
+/* .maincot__h2 {
     padding: 20px 15% 20px 15%;
     text-align: center;
     font-size: 1.77909562639vw;
     font-weight: 500;
-}
-.forms-cotizacion {
+} */
+/* .forms-cotizacion {
     display: grid;
     grid-template-areas:
     "labels1 inputs1 labels2 inputs2"
@@ -100,79 +100,79 @@ footer {
     margin-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
-}
-.labels1 {
+} */
+/* .labels1 {
     grid-area: labels1;
     display: flex;
     flex-direction: column;
     font-size: 20px;
     width: fit-content;
     margin-left: 3.70644922165vw;
-}
-.labels1 label {
+} */
+/* .labels1 label {
     padding-bottom: 5px;
-}
-.labels2 {
+} */
+/* .labels2 {
     grid-area: labels2;
     display: flex;
     margin-left: 2.22386953299vw;
     flex-direction: column;
     font-size: 20px;
     width: fit-content;
-}
-.labels2 label {
+} */
+/* .labels2 label {
     padding-bottom: 5px;
-}
-.inputs1 {
+} */
+/* .inputs1 {
     grid-area: inputs1;
     display: flex;
     flex-direction: column;
-}
-.inputs1 input {
+} */
+/* .inputs1 input {
     height: 31px;
     margin-bottom: 5px; 
     border-radius: 10px;
     border: #79786f 1.5px solid;
     background-color: #C6C5B9;
-}
-.inputs2 {
+} */
+/* .inputs2 {
     grid-area: inputs2;
     display: flex;
     flex-direction: column;
     margin-right: 3.70644922165vw;
-}
-.inputs2 input {
+} */
+/* .inputs2 input {
     height: 31px;
     margin-bottom: 5px; 
     border-radius: 10px;
     border: #79786f 1.5px solid;
     background-color: #C6C5B9;
- }
-.labels3 {
+ } */
+/* .labels3 {
     grid-area: labels3;
     font-size: 20px;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     padding-left: 3.70644922165vw;
-}
-.textarea1 {
+} */
+/* .textarea1 {
     grid-area: textarea1;
-}
-.textarea1 textarea {
+} */
+/* .textarea1 textarea {
     width: 100%;
     border-radius: 10px;
     border: #79786f 1.5px solid;
     background-color: #C6C5B9;
     padding-top: 2px;
-}
-.submit1 {
+} */
+/* .submit1 {
     grid-area: submit1;
     display: flex;
     align-content: end;
     flex-wrap: wrap;
-}
-.submit1 input {
+} */
+/* .submit1 input {
     margin-left: 30px;
     height: 35px;
     width: 55px;
@@ -180,43 +180,43 @@ footer {
     border-radius: 10px;
     background-color: #C6C5B9;
     border: #79786f 1.5px solid;
-}
-.card {
+} */
+/* .card {
     padding: 5px;
     background-color: #A9A89A;
     margin-bottom: 30px;
     width: 23% !important;
-}
-.card-text {
+} */
+/* .card-text {
     font-size: 18px !important;
-}
-.mainblog {
+} */
+/* .mainblog {
     padding-top: 10px;
-}
-.mainblog__section {
+} */
+/* .mainblog__section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.main-contacto {
+} */
+/* .main-contacto {
     padding: 20px 20px 20px 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.main-contacto h1 {
+} */
+/* .main-contacto h1 {
     border-bottom: #2E0014 2px solid;
     font-weight: 500;
     width: 100%;
-}
-.main-contacto h2 {
+} */
+/* .main-contacto h2 {
     width: 75%;
     text-align: center;
     font-weight: 500;
-}
-.form-contacto {
+} */
+/* .form-contacto {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -227,8 +227,8 @@ footer {
     justify-content: center;
     padding: 10px;
     margin-top: 30px;
-}
-.input-contacto {
+} */
+/* .input-contacto {
     height: 31px;
     width: 46%;
     margin-bottom: 10px; 
@@ -236,11 +236,11 @@ footer {
     border: #79786f 1.5px solid;
     background-color: #C6C5B9;
     padding-left: 5px;
-}
-.input-contacto1 {
+} */
+/* .input-contacto1 {
     margin-right: 2%;
-}
-.text-contacto {
+} */
+/* .text-contacto {
     width: 97%;
     border-radius: 10px;
     border: #79786f 1.5px solid;
@@ -251,8 +251,8 @@ footer {
     width: 97%;
     display: flex;
     justify-content: end;
-}
-.submit2 {
+} */
+/* .submit2 {
     margin-top: 10px;
     margin-left: 30px;
     height: 35px;
@@ -260,8 +260,8 @@ footer {
     border-radius: 10px;
     background-color:#C6C5B9;
     border: #79786f 1.5px solid;
-}
-.aside-contacto {
+} */
+/* .aside-contacto {
     width: 30%;
     margin-top: 30px;
     padding: 10px;
@@ -270,53 +270,53 @@ footer {
     border: #79786f 1.5px solid;
     border-radius: 10px;
     text-align: center;
-}
-.aside-contacto__text {
+} */
+/* .aside-contacto__text {
     font-weight: 500;
 }
 .aside-contacto__img {
     width: 30px;
-}
-.footer {
+} */
+/* .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-}
-.footer h2 {
+} */
+/* .footer h2 {
     font-size: 2.24225668629vw;
     font-weight: 500;
-}
-.footer__instagram {
+} */
+/* .footer__instagram {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.footer__instagram--logo {
+} */
+/* .footer__instagram--logo {
     width: 4.44773906597vw;
-}
-.footer__instagram--texto {
+} */
+/* .footer__instagram--texto {
     display: flex;
     align-self: center;
     font-size: 1.70496664196vw !important;
     font-weight: 500;
-}
-.overflow-hidden {
+} */
+/* .overflow-hidden {
     overflow: hidden;
-}
-.static {
+} */
+/* .static {
     position: static !important;
-}
-.alerta {
+} */
+/* .alerta {
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin-bottom: 0 !important;
-}
-@media (max-width: 1050px) {
-    .labels1 {
+} */
+/* @media (max-width: 1050px) { */
+    /* .labels1 {
         font-size: 1.90476190476vw;
     }
     .labels2 {
@@ -331,9 +331,9 @@ footer {
     .inputs2 input {
         height: 28.7037037037%;
     }
-}
+} */
 @media (max-width: 770px) {
-    header {
+    /* header {
         height: fit-content;
     }
     .header {
@@ -346,7 +346,7 @@ footer {
     }
     .header__logo {
         height: 70px;
-    }
+    } */
     .main__section article {
         width: 44.9591280654%;
         height: fit-content;

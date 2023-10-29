@@ -14,16 +14,31 @@
         <nav>
             <ul class="header">
                 <li><a href="#"><img src="./images/Logo-Peluchitos2.jpg" alt="Logo" class="header__logo"></a></li>
-                <li><a href="./pages/Productos.html">Productos</a></li>
-                <li><a href="./pages/Cotizacion.html">Cotización</a></li>
-                <li><a href="./pages/Blog.html">Blog</a></li>
-                <li><a href="./pages/Contacto.html" class="header__contacto">Contacto</a></li>
+                <li><a href="./pages/Productos.html" class="header-1">Productos</a></li>
+                <li><a href="./pages/Cotizacion.html" class="header-1">Cotización</a></li>
+                <li><a href="./pages/Blog.html" class="header-1">Blog</a></li>
+                <li><a href="./pages/Contacto.html" class="header-1 header__contacto">Contacto</a></li>
+                <li class="header-2">
+                    <div class="accordion accordion-flush accordion-item" id="accordionFlushExample">
+                        <h2 class="accordion-header">
+                            <button class="button-header-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Menú</button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse accordion-body" data-bs-parent="#accordionFlushExample">
+                            <ul>
+                                <li><a href="./pages/Productos.html">Productos</a></li>
+                                <li><a href="./pages/Cotizacion.html">Cotización</a></li>
+                                <li><a href="./pages/Blog.html">Blog</a></li>
+                                <li><a href="./pages/Contacto.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
         <!-- Termina el header y comienza el main -->
     <main class="main">
-        <div id="carouselExample" class="overflow-hidden carousel slide">
+        <div id="carouselExample" class="main__div overflow-hidden carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./images/Baner.jpg" class="d-block main__banner" alt="Baner proximamente">

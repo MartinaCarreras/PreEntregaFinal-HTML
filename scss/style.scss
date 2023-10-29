@@ -1,0 +1,14 @@
+// Primero importo las variables //
+@import "variables";
+
+// Luego las cosas más generales //
+@import "header";
+@import "main";
+@import "footer";
+
+// Por ultimo importo las hojas de estilos de cada página //
+@import "index";
+@import "blog";
+@import "contacto";
+@import "cotizacion";
+@import "productos";

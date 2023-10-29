@@ -1,0 +1,118 @@
+.maincot__h2 {
+    padding: 20px 15% 20px 15%;
+    text-align: center;
+    font-size: 1.77909562639vw;
+    font-weight: 500;
+}
+.forms-cotizacion {
+    display: grid;
+    grid-template-areas:
+    "labels1 inputs1 labels2 inputs2"
+    "labels3 textarea1 submit1 none";
+    grid-template-columns: 18.5322461082vw 25.3150481838vw 18.5322461082vw 25.3150481838vw;
+    grid-template-rows: auto auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    .labels1 {
+        grid-area: labels1;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        width: fit-content;
+        margin-left: 3.70644922165vw;
+        label {
+            padding-bottom: 5px;
+        }
+    }
+    .labels2 {
+        grid-area: labels2;
+        display: flex;
+        margin-left: 2.22386953299vw;
+        flex-direction: column;
+        font-size: 20px;
+        width: fit-content;
+        label {
+            padding-bottom: 5px;
+        }
+    }
+    .inputs1 {
+        grid-area: inputs1;
+        display: flex;
+        flex-direction: column;
+        input {
+            height: 31px;
+            margin-bottom: 5px; 
+            border-radius: 10px;
+            border: #79786f 1.5px solid;
+            background-color: #C6C5B9;
+        }
+    }
+    .inputs2 {
+        grid-area: inputs2;
+        display: flex;
+        flex-direction: column;
+        margin-right: 3.70644922165vw;
+        input {
+            height: 31px;
+            margin-bottom: 5px; 
+            border-radius: 10px;
+            border: #79786f 1.5px solid;
+            background-color: #C6C5B9;
+        }
+    }
+    .labels3 {
+        grid-area: labels3;
+        font-size: 20px;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        padding-left: 3.70644922165vw;
+    }
+    .textarea1 {
+        grid-area: textarea1;
+        textarea {
+            width: 100%;
+            border-radius: 10px;
+            border: #79786f 1.5px solid;
+            background-color: #C6C5B9;
+            padding-top: 2px;
+        }
+    }
+    .submit1 {
+        grid-area: submit1;
+        display: flex;
+        align-content: end;
+        flex-wrap: wrap;
+        input {
+            margin-left: 30px;
+            height: 35px;
+            width: 55px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            background-color: #C6C5B9;
+            border: #79786f 1.5px solid;
+        }
+    }
+}
+@media (max-width: $media1) {
+    .labels1 {
+        font-size: 1.90476190476vw;
+    }
+    .labels2 {
+        font-size: 1.90476190476vw;
+    }
+    .labels3 {
+        font-size: 1.90476190476vw;
+    }
+    .inputs1 {
+        input {
+            height: 28.7037037037%;
+        }
+    }
+    .inputs2 {
+        input {
+            height: 28.7037037037%;
+        }
+    }
+}

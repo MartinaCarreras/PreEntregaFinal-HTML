@@ -1,0 +1,21 @@
+.mainblog {
+    padding-top: 10px;
+    .mainblog__section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .card {
+            padding: 5px;
+            background-color: #A9A89A;
+            margin-bottom: 30px;
+            width: 23% !important;
+            .card-text {
+                font-size: 18px !important;
+            }
+        }
+    }
+    .alert {
+        margin-bottom: 0;
+    }
+}

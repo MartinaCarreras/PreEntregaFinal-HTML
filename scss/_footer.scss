@@ -1,0 +1,31 @@
+footer {
+    font-family: $fuente-principal;
+    background-color: $color-footer1;
+    color: $color-main2;
+    border-left: $color-footer2 2.37212750185vw solid;
+    border-right: $color-footer2 2.37212750185vw solid;
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        h2 {
+            font-size: 2.24225668629vw;
+            font-weight: 500;
+        }
+        .footer__instagram {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .footer__instagram--logo {
+                width: 4.44773906597vw;
+            }
+            .footer__instagram--texto {
+                display: flex;
+                align-self: center;
+                font-size: 1.70496664196vw !important;
+                font-weight: 500;
+            }
+        }
+    }
+}

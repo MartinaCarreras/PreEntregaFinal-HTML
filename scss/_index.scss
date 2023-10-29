@@ -1,0 +1,38 @@
+.main {
+    .main__div {
+        overflow: hidden;
+    }
+    .main__banner {
+        display: flex;
+        width: 96%;
+        padding: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        flex-wrap: nowrap;
+    }
+    .main__section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        article {
+            margin: 20px 15px 20px 15px;
+            padding-bottom: 15px;
+            background-color: #A9A89A;
+            width: 330px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h3 {
+                font-size: 25px;
+            }
+        }
+        .main__section--producto {
+            width: 300px;
+            height: 225px;
+            margin: 15px;
+        }
+    }
+}
