@@ -64,12 +64,66 @@ header a {
     font-size: calc(0.625rem + 1.272264631vw);
     padding-top: 5px;
   }
-  .header-2 .accordion-body ul li {
+  .header-2 .accordion-body li {
     display: flex;
     height: 35px;
     border-bottom: #3F4924 solid 1px;
     align-content: center;
     flex-wrap: wrap;
+  }
+  .nav {
+    width: 300px;
+    border: 1px #dee2e6 solid;
+    border-radius: 0.375rem;
+  }
+  .nav .nav-logo {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-weight: 500;
+    padding: 16px 20px 16px 20px;
+  }
+  .nav .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-size: calc(0.625rem + 1.272264631vw);
+    background-color: #596634;
+    border: #3F4924 solid 2px;
+    border-radius: 0.375rem;
+  }
+  .nav .nav-container .nav-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 58.281px;
+  }
+  .nav .nav-container h1 {
+    font-size: calc(0.625rem + 1.272264631vw);
+    color: #C6C5B9;
+  }
+  .nav .nav-container .nav-menu {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.3s;
+  }
+  .nav .nav-container .nav-menu li {
+    display: flex;
+    height: 35px;
+    border-bottom: #3F4924 solid 1px;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .nav .nav-container .menu-input {
+    display: none;
+  }
+  .nav .nav-container .menu-input:checked + .nav-menu {
+    max-height: 161px;
+    padding: 5px 20px 16px 20px;
   }
 }
 @media (max-width: 640px) {
@@ -81,6 +135,11 @@ header a {
     height: auto;
   }
 }
+@media (max-width: 590px) {
+  .nav {
+    width: 50.8474576271vw;
+  }
+}
 @media (max-width: 500px) {
   header {
     height: 130px;
@@ -90,6 +149,26 @@ header a {
   }
   .header-2 {
     margin-top: 20px;
+  }
+  .header-2 {
+    width: calc(100% - 17px - 30px - 175px);
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav .nav-logo {
+    padding-right: 0px;
+  }
+}
+@media (max-width: 370px) {
+  header {
+    height: 100px;
+  }
+  header .header__logo {
+    width: 120px !important;
+  }
+  .header-2 {
+    margin-top: 0px;
   }
 }
 * {
