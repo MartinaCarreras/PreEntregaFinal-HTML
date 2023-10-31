@@ -36,3 +36,31 @@
         }
     }
 }
+@media only screen and (max-width: $media2) {
+    .main {
+        .main__section {
+            article {
+                width: 41.9847328244vw ;
+                margin: 20px 0 20px 0 ;
+                .main__section--producto {
+                    width: 90.9090909091% ;
+                    height: auto ;
+                    margin: 15px 4.54545454545% ;
+                }
+                h3 {
+                    font-size: calc(0.75rem + 1.27226463104vw) ;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $media7) {
+    .main {
+        .main__section {
+            article h3 {
+                font-size: calc(0.625rem + 1.27226463104vw) ;
+            }
+        }
+    }
+}

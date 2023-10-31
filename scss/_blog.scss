@@ -11,11 +11,21 @@
             margin-bottom: 30px;
             width: 23% !important;
             .card-text {
-                font-size: 18px !important;
+                font-size: calc(0.8125rem + 0.46728971962vw) !important;
             }
         }
     }
     .alert {
         margin-bottom: 0;
+    }
+}
+@media (max-width: $media8) {
+    .mainblog .mainblog__section .card {
+        width: 30.6666666667% !important;
+    }
+}
+@media (max-width: $media5) {
+    .mainblog .mainblog__section .card {
+        width: 46% !important;
     }
 }

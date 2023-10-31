@@ -1,6 +1,9 @@
 // Primero importo las variables //
 @import "variables";
 
+//Luego mixins//
+@import "mixins";
+
 // Luego las cosas más generales //
 @import "header";
 @import "main";

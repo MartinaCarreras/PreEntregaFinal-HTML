@@ -1,0 +1,6 @@
+@mixin animacion-logo {
+    animation-duration: 1.5s;
+    animation-name: logo-header;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}

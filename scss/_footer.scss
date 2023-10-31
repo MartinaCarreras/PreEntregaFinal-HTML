@@ -10,7 +10,7 @@ footer {
         align-items: center;
         padding: 10px;
         h2 {
-            font-size: 2.24225668629vw;
+            font-size: calc(0.875rem + 0.7476635514vw);
             font-weight: 500;
         }
         .footer__instagram {
@@ -23,7 +23,7 @@ footer {
             .footer__instagram--texto {
                 display: flex;
                 align-self: center;
-                font-size: 1.70496664196vw !important;
+                font-size: calc(0.875rem + 0.46728971962vw) !important;
                 font-weight: 500;
             }
         }

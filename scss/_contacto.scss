@@ -6,12 +6,14 @@
     justify-content: space-around;
     h1 {
         border-bottom: #2E0014 2px solid;
+        font-size: calc(1rem + 1.4953271028vw);
         font-weight: 500;
         width: 100%;
     }
     h2 {
         width: 75%;
         text-align: center;
+        font-size: calc(0.8125rem + 1.02803738318vw);
         font-weight: 500;
     }
     .form-contacto {
@@ -35,7 +37,7 @@
             padding-left: 5px;
         }
         .input-contacto1 {
-            margin-right: 2%;
+            margin-right: 4%;
         }
         .text-contacto {
             width: 97%;
@@ -68,11 +70,30 @@
         border: #79786f 1.5px solid;
         border-radius: 10px;
         text-align: center;
+        p {
+            font-size: calc(0.6875rem + 0.46728971962vw);
+        }
         .aside-contacto__text {
             font-weight: 500;
+            font-size: calc(0.75rem + 0.65420560747vw);
         }
         .aside-contacto__img {
             width: 30px;
         }
+    }
+}
+@media (max-width: $media8) {
+    .main-contacto {
+        .form-contacto {
+            width: 90%;
+        }
+        .aside-contacto {
+            width: 50%;
+        }
+    }
+}
+@media (max-width: $media3) {
+    .main-contacto .aside-contacto {
+        width: 70%;
     }
 }
