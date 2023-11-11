@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="shortcut icon" href="../images/Favicon.jpg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/Favicon(1).png">
     <meta name="description" content="Explora nuestra variedad de peluches de alta calidad. Desde personajes adorables hasta diseños únicos, encuentra el peluche perfecto para ti o para regalar.">
     <meta name="keywords" content="Peluches de crochet, amigurumi, patrones, tejido a mano, tutoriales, diseños, manualidades, creatividad, inspiración, bebés, animales, decoración, proyectos, artístico, vintage, comunidad, regalos, únicos, temáticos, principiantes, hechos a mano, juguetes, ideas, artesanía, bricolaje, adorables, originales, historias, colección, decoración.">
     <title>Productos</title>
@@ -40,54 +40,94 @@
     </header>
     <!-- Termina el header y comienza el main -->
     <main class="main">
-        <Section class="main__section">
+        <nav class="productos-nav">
+            <ul class="ul1">
+                <li>
+                    <div class="nav-container nav-container-productos nav-div">
+                        <h1 class="nav-logo">Productos</h1>
+                        <label for="productos" class="nav-label nav-label1">
+                            <img src="../assets/menu.svg" alt="icono menú" class="nav-img img1">
+                        </label>
+                        <input type="checkbox" name="" id="productos" class="menu-input">
+                        <div class="nav-productos-contenido">
+                            <ul>
+                                <li>Peluches</li>
+                                <li>Bebé</li>
+                                <li>Ropa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="ul2">
+                <li>
+                    <div class="nav-container nav-container-productos nav-div">
+                        <h1 class="nav-logo">Ordenar por:</h1>
+                        <label for="orden" class="nav-label nav-label2">
+                            <img src="../assets/menu.svg" alt="icono menú" class="nav-img img2">
+                        </label>
+                        <input type="checkbox" name="" id="orden" class="menu-input">
+                        <div class="nav-productos-contenido">
+                            <ul>
+                                <li>Más reciente</li>
+                                <li>Más antiguo</li>
+                                <li>Más popular</li>
+                                <li>Mayor precio</li>
+                                <li>Menor precio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </nav>
+        <Section class="productos-section">
             <article>
-                <img src="../images/Manzanita-verde.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/Manzanita-verde.jpg" alt="Peluche de manzana" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <article>
-                <img src="../images/Ranita1.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/Ranita1.jpg" alt="Peluche de ranita" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <article>
-                <img src="../images/Pulpito-blanco.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/Pulpito-blanco.jpg" alt="Peluche de pulpo" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <article>
-                <img src="../images/Peluche4.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/Peluche4.jpg" alt="Amigurumi de Alicia en el País de las Maravillas" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <article>
-                <img src="../images/Peluche5.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/Peluche5.jpg" alt="Peluche" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <article>
-                <img src="../images/Producto-proximamente.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/cardigan1.jpg" alt="Cárdigan verde" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <article>
-                <img src="../images/Producto-proximamente.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/top1.jpg" alt="Top verde" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <article>
-                <img src="../images/Producto-proximamente.jpg" alt="Próximamente" class="main__section--producto">
+                <img src="../images/posa-pava.jpg" alt="Posa pava de fresa" class="productos_section--producto">
                 <h3>Producto no disponible</h3>
                 <h3>$00,00</h3>
             </article>
             <!--Cuando tenga más productos se va a notar la diferencia entre esta página e Inicio-->
         </Section>
-        <h2 class="main__h2">¡¡Seguiremos expandiendo esta sección próximamente!!</h2>
-        <div class="alert alert-warning alert-dismissible fade show alerta" role="alert">
-            <strong>Atencion!</strong> Ésta página aún no está terminada.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
+        <h2 class="productos_h2">¡¡Seguiremos expandiendo esta sección próximamente!!</h2>
     </main>
     <!-- Termina el main y comienza el footer -->
     <footer>

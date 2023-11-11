@@ -10,6 +10,13 @@ header {
     left: 0;
     right: 0;
     z-index: 3;
+    li {
+        transform: scale(1, 1);
+        transition: all 0.3s;
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+    }
     a {
         color: $color-main1 !important;
     }
@@ -102,7 +109,6 @@ header {
             h1 {
                 font-size: calc(0.625rem + 1.27226463104vw);
                 color: $color-main1;
-                
             }
             .nav-menu {
                 width: 100%;

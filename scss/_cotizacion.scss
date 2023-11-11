@@ -13,6 +13,7 @@
     grid-template-rows: auto auto;
     margin-top: 20px;
     padding-bottom: 20px;
+    margin-left: 3.20512820513vw;
     justify-content: center;
     .labels1 {
         grid-area: labels1;
@@ -48,7 +49,8 @@
             margin-bottom: 5px; 
             border-radius: 10px;
             border: #79786f 1.5px solid;
-            background-color: #C6C5B9;
+            background-color: $color-main1;
+            @include transition-1
         }
     }
     .inputs2 {
@@ -61,7 +63,8 @@
             margin-bottom: 5px; 
             border-radius: 10px;
             border: #79786f 1.5px solid;
-            background-color: #C6C5B9;
+            background-color: $color-main1;
+            @include transition-1
         }
     }
     .labels3 {
@@ -78,8 +81,9 @@
             width: 100%;
             border-radius: 10px;
             border: #79786f 1.5px solid;
-            background-color: #C6C5B9;
+            background-color: $color-main1;
             padding-top: 2px;
+            @include transition-1
         }
     }
     .submit1 {
@@ -93,8 +97,9 @@
             width: 55px;
             margin-bottom: 10px;
             border-radius: 10px;
-            background-color: #C6C5B9;
+            background-color: $color-main1;
             border: #79786f 1.5px solid;
+            @include transition-5
         }
     }
 }

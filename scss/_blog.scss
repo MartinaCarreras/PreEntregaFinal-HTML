@@ -7,12 +7,13 @@
         justify-content: space-around;
         .card {
             padding: 5px;
-            background-color: #A9A89A;
+            background-color: $color-main2;
             margin-bottom: 30px;
             width: 23% !important;
             .card-text {
                 font-size: calc(0.8125rem + 0.46728971962vw) !important;
             }
+            @include transition-05
         }
     }
     .alert {

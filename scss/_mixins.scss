@@ -4,3 +4,27 @@
     animation-iteration-count: infinite;
     animation-delay: 0s;
 }
+@mixin transition-1 {
+    transform: scale(1, 1);
+    transition: all 0.3s;
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+}
+@mixin transition-05 {
+    transform: scale(1, 1);
+    transition: all 0.3s;
+        &:hover {
+            transform: scale(1.05, 1.05);
+        }
+}
+@mixin transition-5 {
+    transform: scale(1, 1);
+    transition: all 0.3s;
+        &:hover {
+            transform: scale(1.3, 1.3);
+        }
+}
+@mixin border-todo {
+    border-radius: 10px;
+}
